@@ -52,5 +52,25 @@ cursor:pointer;
 
 .side-link.active img{
 padding-bottom: 2px;
-border-bottom: 3px solid red;;
+border-bottom: 3px solid red;
+}
+
+@media (max-width:900px)
+{
+    .sidebar{
+        display: none;
+    }
+    /* .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width:90px;
+    }
+    .nav-middle .search-box input{
+        width:100px;
+    } */
 }

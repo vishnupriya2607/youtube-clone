@@ -1,0 +1,35 @@
+.search-results {
+    padding: 20px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.result-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+}
+
+.result-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.result-info {
+    margin-top: 8px;
+}
+
+.result-info h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.result-info p {
+    font-size: 0.9rem;
+    color: #555;
+}

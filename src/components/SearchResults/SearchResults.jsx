@@ -27,7 +27,8 @@ const SearchResults = () => {
             <h2>Search Results for `{searchTerm}`</h2>
             <div className="results-grid">
                 {results.map((result) => (
-                    <Link to={`/watch/${result.id.videoId}`} key={result.id.videoId} className="result-card">
+                    <Link to={`/video/${result.id.kind}/${result.id.videoId}`} key={result.id.videoId} className="result-card">
+
                         <img src={result.snippet.thumbnails.medium.url} alt={result.snippet.title} />
                         <div className="result-info">
                             <h3>{result.snippet.title}</h3>
